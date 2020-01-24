@@ -53,16 +53,16 @@ hr {
     text-align: center;
     width: 100%;
 }
-.btn--orange:link, .btn--orange:visited {
+.btn--blue:link, .btn--blue:visited {
     color: #fff;
     background-color: #0094FF;
 }
-.btn--orange:hover, .btn--orange:focus {
+.btn--blue:hover, .btn--blue:focus {
     color: #fff !important;
     background-color: #0026FF;
     border-color: #0026FF;
 }
-.btn--orange:active {
+.btn--blue:active {
     color: #fff;
     background-color: #20007A;
     border-color: #20007A;
