@@ -1,7 +1,6 @@
 #ifndef PAGE_ADMIN_H
 #define PAGE_ADMIN_H
 
-//<a href="color.html"   style="width:250px"  class="btn btn--m btn--orange" >Colour settings</a><br>
 //
 //  HTML PAGE
 //
@@ -11,11 +10,11 @@ const char PAGE_AdminMainPage[] PROGMEM = R"=====(
 <body>
 <strong>Conway's Game of Life Coffee Table</strong>
 <hr>
-<a href="games.html" style="width:250px" class="btn btn--m btn--orange" >Choose Your Game</a><br>
-<a href="config.html" style="width:250px" class="btn btn--m btn--orange" >Network Configuration</a><br>
-<a href="info.html" style="width:250px"  class="btn btn--m btn--orange" >Network Information</a><br>
-<a href="ntp.html" style="width:250px"  class="btn btn--m btn--orange" >NTP Settings</a><br>
-<a href="time.html" style="width:250px"  class="btn btn--m btn--orange" >Manual time setting</a><br>
+<a href="games.html" style="width:250px" class="btn btn--m btn--blue" >Choose Your Game</a><br>
+<a href="config.html" style="width:250px" class="btn btn--m btn--blue" >Network Configuration</a><br>
+<a href="info.html" style="width:250px"  class="btn btn--m btn--blue" >Network Information</a><br>
+<a href="ntp.html" style="width:250px"  class="btn btn--m btn--blue" >NTP Settings</a><br>
+<a href="time.html" style="width:250px"  class="btn btn--m btn--blue" >Manual time setting</a><br>
 </body>
 <script>
 window.onload = function ()
