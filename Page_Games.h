@@ -4,7 +4,7 @@
 const char PAGE_Games[] PROGMEM = R"=====(
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<a href="/"  class="btn btn--s"><</a>&nbsp;&nbsp;<strong>Game Chooser</strong>
+<a href="/"  class="btn btn--s btn--blue">&#9664;</a>&nbsp;&nbsp;<strong>Game Chooser</strong>
 <hr>
 <form action="" method="get">
 <table border="0"  cellspacing="0" cellpadding="3" >
@@ -58,8 +58,7 @@ void send_games_html()
 	      if (server.argName(i) == "game") config.game =  server.arg(i).toInt();
 	    }
 
-	    Serial.println(config.game);
-	    //Serial.println(config.endColor);
+	    //Serial.println(config.game);
 	    WriteConfig();
 
 	  }
@@ -74,7 +73,7 @@ void send_games_values_html()
   values += "density|" + (String) config.density + "|input\n";
   values += "fading_step|" +  (String) config.fading_step + "|input\n";
   values += "game|" +  (String) config.game + "|input\n";
-  Serial.println(values);
+  //Serial.println(values);
   server.send ( 200, "text/plain", values);
   Serial.println(__FUNCTION__);
   AdminTimeOutCounter=0;
