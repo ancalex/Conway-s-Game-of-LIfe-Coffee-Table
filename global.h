@@ -6,13 +6,6 @@ ESP8266WebServer server(80);							// The Webserver
 boolean firstStart = true;								// On firststart = true, NTP will try to get a valid time
 boolean ntp_response_ok = false;
 boolean manual_time_set = false;
-boolean TestSoothingColors = false;
-boolean TestRefreshingColors = false;
-boolean TestHourColor = false;
-boolean StopSoothing = false;
-boolean StopRefreshing = false;
-boolean StopHourColor = false;
-int HourColorTestStep = 0;
 String chipID;
 int WIFI_connected = false;
 bool CFG_saved = false;
