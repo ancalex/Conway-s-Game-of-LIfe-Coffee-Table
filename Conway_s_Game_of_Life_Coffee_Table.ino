@@ -15,7 +15,7 @@ CRGB leds[NUM_STRIPS * NUM_LEDS_PER_STRIP];
 const uint8_t MatrixWidth = 25;
 const uint8_t MatrixHeight = 25;
 uint8 BRIGHTNESS = 64;
-CRGBPalette16 currentPalette = fire_gp;
+//CRGBPalette16 currentPalette = fire_gp;
 int generation = 0;
 
 class Cell {
@@ -47,6 +47,8 @@ Cell world[MatrixWidth][MatrixHeight];
 #include "Page_NetworkConfiguration.h"
 #include "Page_SetTime.h"
 #include "Page_Games.h"
+
+CRGBPalette16 currentPalette = fire_gp;
 
 extern "C" {
 #include "user_interface.h"
